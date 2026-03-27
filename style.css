@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background: #f2f6fc;
+  font-family: Arial;
+}
+
+#robot {
+  font-size: 100px;   /* makes emoji big */
+  margin: 50px;
+}
+
+/* Animation */
+.dance {
+  animation: move 0.4s infinite alternate;
+}
+
+/* Keyframes */
+@keyframes move {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
